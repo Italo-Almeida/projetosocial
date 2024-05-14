@@ -44,7 +44,7 @@ section#telefone {
  section#redes-sociais {
     text-align: right;
  }
- section#redes-sociais img{
+ section#redes-sociais > img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -57,4 +57,3 @@ section#telefone {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform .3s;
  }
- 
