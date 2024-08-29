@@ -16,11 +16,12 @@ body{
     top center;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
@@ -42,18 +43,18 @@ section#telefone {
  }
 section#redes-sociais {
     text-align: right;
-    
+    margin-top: 50px;
+    align-items: normal;
 }
+
  section#redes-sociais > a > img {
-    display: flex;
-    position: absolute;
-    right: 0%;
+    position: relative;
     width: 50px;
-    margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.394);
     box-sizing: border-box;
-    margin-top: 13%;
+    margin-top: 50%;
+    margin-right: 10px; 
  }
  section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.397);
